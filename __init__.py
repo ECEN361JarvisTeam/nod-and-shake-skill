@@ -16,7 +16,7 @@ class NodAndShake(MycroftSkill):
         m.setAccel(1,1)
         m.setSpeed(1,4)
         m.setTarget(1,5000)
-        time.sleep(3)
+        time.sleep(2)
         m.setTarget(1,4000)
         m.close()
 
