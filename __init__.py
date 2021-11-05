@@ -11,7 +11,7 @@ class NodAndShake(MycroftSkill):
 
     @intent_file_handler('shake.and.nod.intent')
     def handle_shake_and_nod(self, message):
-        #self.speak_dialog('shake.and.nod')
+        self.speak_dialog('shake.and.nod')
         m.setAccel(1,1)
         m.setSpeed(1,4)
         m.setTarget(1,5000)
