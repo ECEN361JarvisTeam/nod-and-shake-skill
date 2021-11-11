@@ -4,6 +4,7 @@ import maestro
 
 
 class NodAndShake(MycroftSkill):
+    #m = maestro.Controller("/dev/ttyACM0")
     
     def __init__(self):
         MycroftSkill.__init__(self)
@@ -32,6 +33,7 @@ class NodAndShake(MycroftSkill):
         m.close()
         self.speak_dialog('shake.and.nod')
 
+        
 
 def create_skill():
     return NodAndShake()
